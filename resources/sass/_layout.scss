@@ -1,0 +1,89 @@
+#nav {
+    background-color: #32292F;
+    height: auto;
+    .top-bar {
+        .col-md-6 {
+            .form-inline {
+                .form-control {
+                    width: 80%;
+                }
+            }
+        }
+        .col-md-3 {
+            .col-md-6 {
+                .faqButton {
+                    font-weight: bold;
+                    color: white;
+                    background-color: #e4c79f;
+                }
+            }
+        }
+        .login {
+            text-align: center;
+            line-height: 0.8em;
+            .login-text {
+                font-size: 14px;
+                text-decoration: none;
+                color: white;
+                margin-top: 0;
+                margin-bottom: 0;
+            }
+        }
+    }
+    .line-nav {
+        border: 1px solid #cda978;
+    }
+    .nav-items {
+        ul {
+            list-style: none;
+            color: white;
+            .li-icon {
+                width: 5%;
+                .icons {
+                    width: 50%;
+                }
+            }
+        }
+    }
+}
+.line_brow {
+    margin-top: 6%;
+    height: 4vh;
+    background-color: #cda978;
+}
+.black-part {
+    background-color: #32292f;
+    padding-top: 3%;
+    .container {
+        .row {
+            .col-sm-4 {
+                .social_media {
+                    margin-top: 4%;
+                    a {
+                        margin-left: 4%;
+                        font-size: 1.2em;
+                    }
+                }
+                h2 {
+                    color: white;
+                    font-size: 2em;
+                    font-family: "Bungee", cursive;
+                }
+                a {
+                    text-decoration: none;
+                    color: white;
+                    margin-bottom: 0;
+                    margin-top: 1%;
+                }
+                .logo_footer {
+                    width: 100%;
+                }
+            }
+        }
+    }
+}
+
+.link {
+    color: whitesmoke;
+    font-weight: bolder;
+}

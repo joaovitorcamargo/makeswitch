@@ -1,0 +1,84 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee+Inline&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bungee&display=swap");
+.main {
+    height: 100vh;
+    background-color: #e2c69e;
+}
+.content {
+    height: 85vh;
+    background-color: white;
+    width: 85%;
+    -webkit-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
+    -moz-box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
+    box-shadow: 10px 10px 11px 0px rgba(0, 0, 0, 0.75);
+}
+.img-content {
+    height: 85vh;
+    background-image: url("/img/2460.png");
+    background-size: 100% 100%;
+}
+.border-title {
+    color: white;
+    border: 10px solid white;
+    padding: 6%;
+    width: 75%;
+    text-align: center;
+}
+.border-title h2 {
+    font-size: 3.5em;
+    font-family: "Bungee Inline", cursive;
+}
+.form-login input {
+    width: 100%;
+    border: 2px solid #5f5f5f;
+    padding: 6%;
+}
+.form-login small {
+    text-decoration: none;
+    font-family: "Bungee", cursive;
+}
+.form-login small a {
+    text-decoration: none;
+    color: #5f5f5f;
+}
+.logo {
+    text-align: center;
+    width: 70%;
+}
+.logo img {
+    width: 85%;
+}
+.form-style-login {
+    width: 70%;
+}
+.form-login ::placeholder {
+    font-family: "Bungee", cursive;
+    text-align: center;
+}
+.btn-login {
+    width: 100%;
+    font-family: "Bungee", cursive;
+    background-color: #8c5206;
+    color: #e4c79f;
+    border: 2px solid #e4c79f;
+    padding: 2%;
+}
+.btn-login:hover {
+    color: white;
+}
+.line {
+    text-align: center;
+}
+.line hr {
+    width: 100%;
+    text-align: center;
+    border: 1px solid #5f5f5f;
+}
+.or-login {
+    text-align: center;
+    color: #5f5f5f;
+    font-family: "Bungee", cursive;
+}
+.or-login span {
+    font-size: 1.3em;
+}

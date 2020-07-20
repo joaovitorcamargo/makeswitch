@@ -1,0 +1,77 @@
+.slide-banner {
+    margin-top: 6%;
+}
+.roupas_acessorios {
+    margin-top: 6%;
+    height: auto;
+    padding: 2%;
+    border: 2px solid #cda978;
+    background-color: #e4c79f;
+    .title_acessorios {
+        font-family: "Bungee", cursive;
+        color: white;
+        font-size: 2.5em;
+    }
+    .owl-carousel {
+        .item {
+            padding: 5%;
+        }
+    }
+}
+.categorias {
+    height: auto;
+    margin-top: 6%;
+    background-color: #d8d8d8;
+    border: 2px solid #d3d3d3;
+    padding: 2%;
+    margin-bottom: 2%;
+    .title_categoria {
+        color: #5f5f5f;
+        font-size: 2.5em;
+        font-family: "Bungee", cursive;
+    }
+    .row {
+        width: 100%;
+        text-align: center;
+        .col-sm-3 {
+            .card_category {
+                border-radius: 10px;
+                padding: 6%;
+                margin: 4%;
+                height: 200px;
+                background-color: white;
+                -webkit-transform: scale(1);
+                cursor: pointer;
+                &:hover {
+                    animation: pulse 0.5s;
+                    -webkit-animation-name: pulse;
+                    animation-name: pulse;
+                    -webkit-transform: scale(1.1);
+                }
+                img {
+                    height: 130px;
+                    border-radius: 10px;
+                    width: 100%;
+                }
+                p {
+                    font-family: "Bungee", cursive;
+                    margin-bottom: 0;
+                    margin-top: 1rem;
+                    color: #5f5f5f;
+                }
+                a {
+                    text-decoration: none;
+                }
+            }
+        }
+    }
+}
+
+@-webkit-keyframes pulse {
+    0% {
+        -webkit-transform: scale(1);
+    }
+    100% {
+        -webkit-transform: scale(1.1);
+    }
+}
